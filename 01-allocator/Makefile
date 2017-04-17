@@ -3,7 +3,7 @@ SRC = allocator.cpp allocator_error.cpp allocator_pointer.cpp allocator_test.cpp
 HDR = allocator.h allocator_error.h allocator_pointer.h
 
 
-all: tests.done
+all: allocator_test
 
 allocator_test: $(SRC) $(HDR)
 	g++ -O1 -g -std=c++11 -o allocator_test $(SRC) -I../thirdparty $(TEST_FILES) -lpthread

@@ -1,4 +1,4 @@
-# Install script for directory: /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator
+# Install script for directory: /home/gand/Documents/sphere/threads/output/01-allocator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -12,20 +12,21 @@ struct List_node {
     bool is_free;
     void* block_start;
     List_node* next;
+    unsigned int id;
 };
 
 class Pointer {
 private:
-    void* address;
-    List_node* block_start;
+    List_node* base;
+    unsigned int id;
 public:
-    Pointer() : address(nullptr), block_start(nullptr) {};
-    Pointer(void* _address, List_node* _block_start) :
-                                                                address(_address),
-                                                                block_start(_block_start)
-                                                                {};
+    Pointer() : base(nullptr), id(0)  {};
+    Pointer(List_node* _base, unsigned int _id) :
+                                                base(_base),
+                                                id(_id)
+                                                {};
     void* get() const;
-    List_node* get_block_start() const {return block_start;}
+    List_node* get_block_start() const;
 };
 
 #endif //ALLOCATOR_POINTER

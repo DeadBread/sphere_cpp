@@ -21,6 +21,7 @@ class Allocator {
 private:
     void* base;
     size_t size;
+    unsigned int count;
 
 //    void* head;
 public:

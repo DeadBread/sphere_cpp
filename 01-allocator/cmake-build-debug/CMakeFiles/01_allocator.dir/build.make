@@ -43,10 +43,10 @@ RM = /home/gand/Programs/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator
+CMAKE_SOURCE_DIR = /home/gand/Documents/sphere/threads/output/01-allocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug
 
 # Utility rule file for 01_allocator.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt
 include CMakeFiles/01_allocator.dir/progress.make
 
 CMakeFiles/01_allocator:
-	make -C /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator CLION_EXE_DIR=/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug
+	make -C /home/gand/Documents/sphere/threads/output/01-allocator CLION_EXE_DIR=/home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug
 
 01_allocator: CMakeFiles/01_allocator
 01_allocator: CMakeFiles/01_allocator.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/01_allocator.dir/clean:
 .PHONY : CMakeFiles/01_allocator.dir/clean
 
 CMakeFiles/01_allocator.dir/depend:
-	cd /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/CMakeFiles/01_allocator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gand/Documents/sphere/threads/output/01-allocator /home/gand/Documents/sphere/threads/output/01-allocator /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug/CMakeFiles/01_allocator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/01_allocator.dir/depend
 

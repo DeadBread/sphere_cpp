@@ -54,10 +54,10 @@ RM = /home/gand/Programs/clion-2017.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator
+CMAKE_SOURCE_DIR = /home/gand/Documents/sphere/threads/output/01-allocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/01_allocator.dir
@@ -66,14 +66,14 @@ CMAKE_BINARY_DIR = /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt
 CMakeFiles/01_allocator.dir/all:
 	$(MAKE) -f CMakeFiles/01_allocator.dir/build.make CMakeFiles/01_allocator.dir/depend
 	$(MAKE) -f CMakeFiles/01_allocator.dir/build.make CMakeFiles/01_allocator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/CMakeFiles --progress-num= "Built target 01_allocator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug/CMakeFiles --progress-num= "Built target 01_allocator"
 .PHONY : CMakeFiles/01_allocator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/01_allocator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/01_allocator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gand/Documents/sphere/threads/output/01-allocator/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/01_allocator.dir/rule
 
 # Convenience name for target.
