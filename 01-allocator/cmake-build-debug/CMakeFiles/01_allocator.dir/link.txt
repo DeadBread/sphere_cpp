@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/01_allocator.dir/allocator.cpp.o CMakeFiles/01_allocator.dir/allocator_error.cpp.o CMakeFiles/01_allocator.dir/allocator_pointer.cpp.o CMakeFiles/01_allocator.dir/allocator_test.cpp.o  -o 01_allocator 

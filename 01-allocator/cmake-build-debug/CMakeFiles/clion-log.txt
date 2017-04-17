@@ -1,0 +1,4 @@
+/home/gand/Programs/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug

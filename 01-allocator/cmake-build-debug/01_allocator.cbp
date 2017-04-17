@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="01_allocator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01_allocator">
+				<Option working_dir="/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 01_allocator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

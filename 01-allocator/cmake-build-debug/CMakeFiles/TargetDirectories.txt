@@ -1,0 +1,3 @@
+/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gand/Documents/sphere/threads/imput/sphere-mt/sphere-mt-master/homework/01-allocator/cmake-build-debug/CMakeFiles/01_allocator.dir
