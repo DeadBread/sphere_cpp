@@ -12,6 +12,7 @@ struct List_node {
     bool is_free;
     void* block_start;
     List_node* next;
+    List_node* previous;
     unsigned int id;
 };
 

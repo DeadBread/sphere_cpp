@@ -23,6 +23,8 @@ private:
     size_t size;
     unsigned int count;
 
+    List_node* inner_alloc(size_t size, List_node* iter);
+
 //    void* head;
 public:
     Allocator(void* _base, size_t _size);
@@ -37,7 +39,7 @@ public:
      * @param p Pointer
      * @param N size_t
      */
-    void realloc(Pointer& p, size_t N) {}
+    void realloc(Pointer& p, size_t N);
 
     /**
      * TODO: semantics
@@ -48,7 +50,7 @@ public:
     /**
      * TODO: semantics
      */
-    void defrag() {}
+    void defrag();
 
     /**
      * TODO: semantics

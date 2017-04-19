@@ -110,17 +110,20 @@ TEST(Allocator, AllocReuse) {
 
     ASSERT_TRUE(fillUp(a, size, ptrs));
     a.free(ptrs[1]);
-
+//
     EXPECT_EQ(ptrs[1].get(), nullptr);
     ptrs[1] = a.alloc(size);
-
+//
     EXPECT_NE(ptrs[1].get(), nullptr);
     writeTo(ptrs[1], size);
 
     for (Pointer& p : ptrs) {
+//        cout << p.get_block_start()->next << endl;
         EXPECT_TRUE(isDataOk(p, size));
         a.free(p);
     }
+
+//    cout << "here" << endl;
 }
 
 TEST(Allocator, DefragMove) {
