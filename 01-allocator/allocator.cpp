@@ -20,6 +20,8 @@ Allocator::Allocator(void *_base, size_t _size) : base(_base), size(_size), coun
     }
 }
 
+//subsudiary method created not to copypast code
+//allocs memory from given (empty!) block
 List_node* Allocator::inner_alloc(size_t size, List_node* iter) {
     List_node tmp_old = *iter;
 
